@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой олимп+</title>
+    <link rel="stylesheet" href="01_index.css">
+    <nav class="navbar">
+        <ul>
+             <form action="">
+                <li>
+                    <div class="logo">
+                        <img src="logo.png" alt="лого">
+                        
+                    </div>
+                </li>
+
+                <li>
+                     <div class="event">
+                        <label for="serch">Мне нужна...</label>
+                        <input type="text" placeholder="Искать олимпиаду..">
+                        <button type="submit"></button>
+        
+                    </div>
+                </li>
+                    
+                <li>
+                    <div class="date">
+                            <label for="date1">Дата</label>
+                            <input type="date" id="date1">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="city">
+                        <label for="city">Город</label>
+                        <select name="region" id="input-select">
+                            <option value="Адыгея">Республика Адыгея</option>
+                            <option value="Алтай">Республика Алтай </option>
+                            <option value="Башкортостан">Республика Башкортостан </option>
+                            <option value="Бурятия">Республика Бурятия </option>
+                            <option value="Дагестан">Республика Дагестан </option>
+                            <option value="Ингушетия">Республика Ингушетия </option>
+                            <option value="Кабардино-Балкария">Кабардино-Балкарская Республика</option>
+                            <option value="Калмыкия">Республика Калмыкия </option>
+                            <option value="Карачаево-Черкессия">Карачаево-Черкесская Республика</option>
+                            <option value="Карелия">Республика Карелия </option>
+                            <option value="Коми">Республика Коми </option>
+                            <option value="Марий Эл">Республика Марий Эл </option>
+                            <option value="Мордовия">Республика Мордовия</option>
+                            <option value="Саха (Якутия)">Республика Саха (Якутия) </option>
+                            <option value="Северная Осетия - Алания">Республика Северная Осетия - Алания </option>
+                            <option value="Татарстан">Республика Татарстан</option>
+                            <option value="Тыва">Республика Тыва </option>
+                            <option value="Удмуртская">Удмуртская Республика </option>
+                            <option value="Хакасия">Республика Хакасия </option>
+                            <option value="Чеченская">Чеченская Республика</option>
+                            <option value="Чувашская Республика">Чувашская Республика</option>
+                            <option value="Алтайский край">Алтайский край</option>
+                            <option value="Забайкальский край">Забайкальский край</option>
+                            <option value="Камчатский край">Камчатский край</option>
+                            <option value="Краснодарский край">Краснодарский край</option>
+                            <option value="Красноярский край">Красноярский край</option>
+                            <option value="Пермский край">Пермский край</option>
+                            <option value="Приморский край">Приморский край</option>
+                            <option value="Ставропольский край">Ставропольский край</option>
+                            <option value="Хабаровский край">Хабаровский край</option>
+                            <option value="Амурская область">Амурская область</option>
+                            <option value="Архангельская область">Архангельская область</option>
+                            <option value="Астраханская область">Астраханская область</option>
+                            <option value="Белгородская область">Белгородская область</option>
+                            <option value="Брянская область">Брянская область </option>
+                            <option value="Владимирская область">Владимирская область </option>
+                            <option value="Волгоградская область">Волгоградская область </option>
+                            <option value="Вологодская область">Вологодская область </option>
+                            <option value="Воронежская область">Воронежская область </option>
+                            <option value="Ивановская область">Ивановская область </option>
+                            <option value="Иркутская область">Иркутская область </option>
+                            <option value="Калининградская область">Калининградская область</option>
+                            <option value="Калужская область">Калужская область </option>
+                            <option value="Кемеровская область">Кемеровская область </option>
+                            <option value="Кировская область">Кировская область </option>
+                            <option value="Костромская область">Костромская область </option>
+                            <option value="Курганская область">Курганская область </option>
+                            <option value="Курская область">Курская область </option>
+                            <option value="Ленинградская область">Ленинградская область </option>
+                            <option value="Липецкая область">Липецкая область </option>
+                            <option value="Магаданская область">Магаданская область</option>
+                            <option value="Московская область">Московская область </option>
+                            <option value="Мурманская область">Мурманская область </option>
+                            <option value="Нижегородская область">Нижегородская область </option>
+                            <option value="Новгородская область">Новгородская область </option>
+                            <option value="Новосибирская область">Новосибирская область </option>
+                            <option value="Омская область">Омская область</option>
+                            <option value="Оренбургская область">Оренбургская область </option>
+                            <option value="Орловская область">Орловская область </option>
+                            <option value="Пензенская область">Пензенская область </option>
+                            <option value="Псковская область">Псковская область </option>
+                            <option value="Ростовская область">Ростовская область </option>
+                            <option value="Рязанская область">Рязанская область </option>
+                            <option value="Самарская область">Самарская область </option>
+                            <option value="Саратовская область">Саратовская область </option>
+                            <option value="Сахалинская область">Сахалинская область </option>
+                            <option value="Свердловская область">Свердловская область </option>
+                            <option value="Смоленская область">Смоленская область </option>
+                            <option value="Тамбовская область">Тамбовская область </option>
+                            <option value="Тверская область">Тверская область </option>
+                            <option value="Томская область">Томская область </option>
+                            <option value="Тульская область">Тульская область</option>
+                            <option value="Тюменская область">Тюменская область </option>
+                            <option value="Ульяновская область">Ульяновская область </option>
+                            <option value="Челябинская область">Челябинская область </option>
+                            <option value="Ярославская область">Ярославская область</option>
+                            <option value="Москва">Москва</option>
+                            <option value="Санкт-Петербург">Санкт-Петербург</option>
+                            <option value="Еврейская АО">Еврейская АО</option>
+                            <option value="Ненецкий АО">Ненецкий АО</option>
+                            <option value="Ханты-Мансийский АО">Ханты-Мансийский АО</option>
+                            <option value="Чукотский АО">Чукотский АО</option>
+                            <option value="Ямало-Ненецкий АО">Ямало-Ненецкий АО</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="graduate">
+                        <label for="graduate">Класс</label>
+                        <select id="graduate">
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9" selected>9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="stage">
+                        <label for="stage">Этап</label>
+                        <select id="stage">
+                            <option value="Школьный">Школьный</option>
+                            <option value="Муниципальный">Муниципальный</option>
+                            <option value="Региональный">Региональный</option>
+                            <option value="Заключительный">Заключительный</option>
+                        </select>
+                    </div>
+                </li>
+                <li>
+                    <div class="otholimp">
+                        <label for="other">Другое</label>
+                        <input type="text" placeholder="Искать олимпиаду..">
+                        <button type="submit"></button>
+                    </div>
+                </li>
+            </form>  
+        </ul>
+    </nav>
+    
+</head>
+
+
+<body>
+<div class="container">
+
+
+<header id="header">
+
+
+    
+    <div class="card">
+        <div id="about">
+            <h2>Культура и искусство</h2>
+            <h3>Олимпиада «Культура и искусство»
+             по комплексу предметов «Академический рисунок,
+             живопись, композиция и история искусства и культуры»</h3>
+            </div>
+        </header>
+
+            <div class="numeration">
+                <ul class="allnum">
+                    <li> <strong>Уровень</strong>
+                        <p>Первый</p>
+                    </li>
+                        
+                    
+
+                    <li class="box"> <strong>Группа</strong>
+                            <p> хз</p>
+                    </li>
+                         
+                    <li class="box" > <strong>Класс</strong>
+                        <p>6-11 классы</p>
+                    </li>
+                       
+
+                    <li class="box"> 
+                        <strong>Дата</strong> 
+                        <p>12.13.2021</p>
+                    </li>
+            
+                </ul>
+             </div>
+        
+        
+    </div>
+
+
+
+
+    <div class="card">
+        <div class="stage">
+            <h1>Этапы Олимпиады</h1>
+            <ul>
+                <li>Регистрация</li>
+                <li>Отборочный этап</li>
+                <li>Заключительный этап</li>
+             </ul>
+        </div>
+        
+    </div>
+
+
+
+    <div class="card">
+        <div class="about">
+            <h1>Об олимпиаде</h1>
+            <p>Олимпиада «Культура и искусство»
+             по комплексу предметов «Академический рисунок,
+             живопись, композиция и история искусства и культуры»
+             проводится для школьников 5-11 классов и студентов СПО по 
+            4 номинациям:</p>
+            <ul>
+                <li>Академический рисунок;</li>
+                <li>Живопись;</li>
+                <li>Композиция;</li>
+                <li>История искусства и культуры.</li>
+            </ul>
+            
+
+            <p> Олимпиада «Культура и искусство» по комплексу предметов «Академический рисунок, живопись, композиция и история искусства и культуры» проходит в два этапа:</p>
+
+           <ul>
+            <li>Отборочный этап реализуется заочно с применением дистанционных технологий;</li>
+            <li>Заключительный этап проводится очно на базе СПбГУПТД.</li>
+           </ul>
+
+        <p>Олимпиада «Культура и искусство» по комплексу предметов «Академический рисунок, живопись, композиция и история искусства и культуры» является перечневой олимпиадой первого уровня.</p>
+
+        <p> Победители и призёры Заключительного этапа получают льготы 1 порядка – поступление в СПбГУПТД без вступительных испытаний на направления подготовки, связанные с изобразительными и прикладными видами искусства, технологиями легкой промышленности.</p> 
+
+        <p> Помимо этого, особые права (БВИ или 100 баллов) могут быть предоставлены и другими вузами России в соответствии с их правилами приёма.</p>
+
+        <p>Также дипломы Олимпиады «Культура и искусство» по комплексу предметов «Академический рисунок, живопись, композиция и история искусства и культуры» учитываются некоторыми вузами в качестве индивидуальных достижений абитуриента, что даёт преимущества при поступлении – до 10 дополнительных баллов.</p>
+        </div>
+
+
+
+        <div class="bu">
+            <div  class="but">
+                <button>Подать заявку</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div id="det" class="detale">
+        <div class="textdet">
+            <h1 >Детали</h1>
+        <div class="prof">  
+            <h3>Профили и предметы</h3>
+            <ul>
+                <li>Дизайн</li>
+                <li>ИЗО и МХК</li>
+                <li>Искусство</li>
+            </ul>
+        </div>
+        
+            <div class="block">
+                <h3>Профили</h3>
+                <p>академический рисунок, живопись, композиция, история искусства и культуры</p>
+            </div>
+
+            <div class="block">
+                <h3>Предметы</h3>
+                <p>архитектура, изобразительное и прикладные виды искусств, технологии легкой промышленности</p>
+            </div>
+        
+        <hr>
+
+        <h2>Регионы и форма проведения</h2>
+
+        <div class="block">
+            <h3>Регионы проведения</h3>
+            <p>все города России</p>
+        </div>
+        
+        <div class="block">
+            <h3>Регионы этапов / финала</h3>
+            <p>Все города России</p>
+        </div>
+
+        <div class="block">
+            <h3>Форма проведения</h3>
+            <p>Регистрайия - Дистанционно, Онлайн  </p>
+        </div>
+        </div>
+    </div>
+
+  .
+    <div class="card achivements">
+        <h2>Награды</h2>
+        <div class="block">
+           <h3>Дипломы</h3>
+           <p >Дипломы победителям (I степени) и призёрам (II и III степени)</p>
+        </div>
+        <div class="block">
+            <h3>БВИ</h3>
+            <p >Право поступления в ВУЗ без вступительных экзаменов</p>
+         </div>
+    </div>
+</div>
+    <footer>
+        <div class="fot">
+            <ul class="footer">
+                <li>О ПРОЕКТЕ</li>
+                <li>ОБРАТНАЯ СВЯЗЬ</li>
+            </ul>
+        </div>
+    
+        
+        <div class="fot olimp">
+            <ul class="footer">
+                <li>Олимпиада 8 класс</li>
+                <li>Олимпиада 9 класс</li>
+                <li>Олимпиада 10 класс</li>
+                <li>Олимпиада 11 класс</li>
+            </ul>
+        </div>
+    
+        <hr>
+        <div class="fot mo">
+            <ul class="footer">
+                <li >Мой Олимп+</li>
+            </ul>
+            <br><br>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+</html>
